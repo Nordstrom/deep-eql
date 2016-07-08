@@ -88,6 +88,7 @@ tests.push(['eql({ foo: { bar: "foo" }}, { foo: { bar: "baz" }})', { foo: { bar:
  * Test setup
  */
 
+
 describe('deep-equal', function () {
     tests.forEach(function (test, i) {
         var negate = test[3] && true === test[3];
