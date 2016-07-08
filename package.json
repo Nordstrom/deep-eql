@@ -1,8 +1,8 @@
 {
-  "name": "deep-eql",
-  "version": "0.1.3",
-  "description": "Improved deep equality testing for Node.js and the browser.",
-  "author": "Jake Luer <jake@alogicalparadox.com>",
+  "name": "smart-eql",
+  "version": "0.2.0",
+  "description": "Smart deep equality testing for Node.js.",
+  "author": "Andy Day <andy.day@nordstrom.com>",
   "license": "MIT",
   "keywords": [
     "deep equal",
@@ -12,28 +12,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:chaijs/deep-eql.git"
+    "url": "git@github.com:Nordstrom/smart-eql.git"
   },
   "engines": {
     "node": "*"
   },
   "main": "./index",
   "scripts": {
-    "test": "make test"
+    "test": "mocha"
   },
   "dependencies": {
     "type-detect": "^1.0.0"
   },
   "devDependencies": {
-    "component": "*",
-    "coveralls": "2.0.16",
-    "jscoverage": "0.3.7",
-    "karma": "*",
-    "karma-cli": "*",
-    "karma-mocha": "*",
-    "karma-phantomjs-launcher": "*",
-    "mocha": "*",
-    "mocha-lcov-reporter": "0.0.1",
-    "simple-assert": "*"
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
   }
 }
