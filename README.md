@@ -1,5 +1,4 @@
-# smart-eql [![Build Status](https://travis-ci.org/chaijs/deep-eql.png?branch=master)](https://travis-ci.org/chaijs/deep-eql) [![Coverage Status](https://coveralls.io/repos/chaijs/deep-eql/badge.png?branch=master)](https://coveralls.io/r/chaijs/deep-eql?branch=master)
-
+# smart-eql [![Build Status](https://travis-ci.org/Nordstrom/smart-eql.svg?branch=master)](https://travis-ci.org/Nordstrom/smart-eql)
 Smart deep equality testing for Node.js.  This was forked from [deep-eql](https://github.com/chaijs/deep-eql), with the
 addition of regex and function testing.
 
